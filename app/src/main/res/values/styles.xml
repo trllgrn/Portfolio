@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">#F08C35</item>
+        <item name="android:layout_alignLeft">@+id/menu_title_txtview</item>
+        <item name="android:layout_alignRight">@+id/menu_title_txtview</item>
+        <item name="android:layout_marginTop">@dimen/abc_dialog_list_padding_vertical_material</item>
+    </style>
+
+</resources>
